@@ -15,7 +15,7 @@ Description: "Example of a profile of Patient"
 * gender from ZimGenderVS
 
 
-ValueSet: ZimGender
+ValueSet: ZimGenderVS
 Id: ZimGender
 Title: "Gender Value Set"
 Description: "Administrative Gender."
