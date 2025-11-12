@@ -1,0 +1,52 @@
+IGEmpty : Validation Results
+=========================================
+
+err = 1, warn = 8, info = 3
+$--
+Generated $--. FHIR version $-- for smart.who.int.ig-empty#$-- (canonical = http://smart.who.int/ig-empty)
+ Build Errors : 25 / 0 / 0
+ /work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty : 0 / 4 / 4
+ /work/fsh-generated/resources/StructureDefinition-LabPatient : 0 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-ZimGender : 1 / 2 / 2
+</table>
+== n/a ==
+ERROR: StructureDefinition-LabPatient-definitions.html#/html/body/div/div/div/p/span/a at Line 627, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient-examples.html#/html/body/div/div/div/p/span/a at Line 286, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient-mappings.html#/html/body/div/div/div/p/span/a at Line 898, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient-testing.html#/html/body/div/div/div/p/span/a at Line 293, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.html#/html/body/div/div/div/p/span/a at Line 2378, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.history.html#/html/body/div/div/div/p/span/a at Line 275, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.json.html#/html/body/div/div/div/p/span/a at Line 2947, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2390, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2742, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender-testing.html#/html/body/div/div/div/p/span/a at Line 270, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.change.history.html#/html/body/div/div/div/p/span/a at Line 239, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.html#/html/body/div/div/div/p/span/a at Line 345, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.json.html#/html/body/div/div/div/p/span/a at Line 322, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.ttl.html#/html/body/div/div/div/p/span/a at Line 320, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.xml.html#/html/body/div/div/div/p/span/a at Line 311, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 247, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: dak-api.html#/html/body/div/div/div/p/span/a at Line 223, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/p/a at Line 327, column 88: The link 'references.html' for "References" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/p/a at Line 327, column 133: The link 'dependencies.html' for "Dependencies" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/ul/li/a at Line 334, column 8: The link 'business-requirements.html' for "Business Requirements" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/ul/li/a at Line 335, column 8: The link 'data-models-and-exchange.html' for "Data Models and Exchange" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/ul/li/a at Line 336, column 8: The link 'deployment.html' for "Deployment Guidance" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 362, column 82: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/p/span/a at Line 425, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/p/span/a at Line 195, column 119: The link 'license.html' for "License" cannot be resolved
+== fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json ==
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent appropriate version is 6.5.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent appropriate version is 5.2.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.uv.cql#1.0.0 released on 2024-05-31, but the most recent appropriate version is 2.0.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[7]: The ImplementationGuide uses package smart.who.int.base#0.1.0 released on 2024-09-20, but the most recent appropriate version is 0.2.0. This reference is getting old and the more recent version should be considered
+INFORMATION: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.definition.resource[0]: This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.definition.resource[1]: This element does not match any known slice defined in the profile http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/StructureDefinition-LabPatient.json ==
+WARNING: Example Patient Profile.Patient.gender: Binding http://smart.who.int/ig-empty/ValueSet/ZimGender could not be expanded
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/ig-empty/StructureDefinition/LabPatient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-ZimGender.json ==
+WARNING: ValueSet/ZimGender: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://www.hl7.org/fhir/administrative-gender'
+INFORMATION: ValueSet/ZimGender: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
+WARNING: ValueSet/ZimGender: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+ERROR: ValueSet.where(id = 'ZimGender'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'https://www.hl7.org/fhir/administrative-gender' could not be found, so the value set cannot be expanded

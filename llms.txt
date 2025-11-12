@@ -1,0 +1,21 @@
+# smart.who.int.ig-empty#0.1.0: Empty IG
+
+## Pages
+
+* [Home](index.md)
+* [DAK API Documentation Hub](dak-api.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### ValueSets
+
+* [Gender Value Set](ValueSet-ZimGender.md)
+
+### Resource Profiles
+
+* [Example Patient Profile](StructureDefinition-LabPatient.md)
+
+### ImplementationGuides
+
+* [Empty IG](index.md)
