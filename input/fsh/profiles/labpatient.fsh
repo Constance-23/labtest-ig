@@ -3,13 +3,13 @@ Parent:      Patient
 Title:       "Example Patient Profile"
 Description: "Example of a profile of Patient"
 
- * name.given 1..1
- *name.given ^short = "Patient's first name"
+* name.given 1..1
+* name.given ^short = "Patient's first name"
 
- * name.family 1..1
- * name.given ^short = "Patient's family name"
+* name.family 1..1
+* name.given ^short = "Patient's family name"
 
- *birthDate 0..1
+* birthDate 0..1
 
 * gender 1..1
 * gender from ZimGenderVS
